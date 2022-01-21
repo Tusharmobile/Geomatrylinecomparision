@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to the linecomparision problem");
+
+            Console.WriteLine("... Welcome to Line Comparison Computation ... ");
             Line_comparision Linecom = new Line_comparision();
             Linecom.length_line();
-            Linecom.function_check(); 
-
-            Console.ReadLine();
-
+            Linecom.Comparelines();
+            Console.ReadKey();
         }
     }
 }
+
+
